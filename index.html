@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <h1>Jogo de Adivinhação</h1>
+    <label for="guess">Insira um número:</label>
+    <input type="number" id="advinhacao" min="1" max="100">
+    <button onclick="checarAdvinhacao()">Enviar Resposta</button>
+    <p id="resultado"></p>
+    <p id="dica"></p>
+    <button onclick="reiniciarJogo()">Reiniciar Jogo</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
